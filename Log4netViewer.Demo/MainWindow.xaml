@@ -1,0 +1,24 @@
+﻿<Window x:Class="Log4netViewer.Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Log4netViewer="clr-namespace:Log4netViewer;assembly=Log4netViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Open log file" Click="OpenFile_Click" />
+            <MenuItem Header="Log">
+                <MenuItem Header="Fatal" Click="LogFatal_Click" />
+                <MenuItem Header="Error" Click="LogError_Click" />
+                <MenuItem Header="Warn" Click="LogWarn_Click" />
+                <MenuItem Header="Info" Click="LogInfo_Click" />
+                <MenuItem Header="Debug" Click="LogDebug_Click" />
+            </MenuItem>
+        </Menu>
+
+        <Log4netViewer:Viewer x:Name="log4netViewer" ItemsSource="{Binding Path=Appender.Events}" />
+    </DockPanel>
+</Window>
