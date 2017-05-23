@@ -1,4 +1,10 @@
-﻿using log4net.Appender;
+﻿/*
+ *  Log4netViewer
+ *
+ *  Copyright (c) 2017, by Nicolas LLOBERA <nllobera@gmail.com>
+ *  Under LGPL license
+ */
+using log4net.Appender;
 using log4net.Core;
 using log4net.Layout;
 using System;

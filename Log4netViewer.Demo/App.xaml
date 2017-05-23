@@ -1,4 +1,10 @@
-﻿<Application x:Class="Log4netViewer.Demo.App"
+﻿<!--
+ !  Log4netViewer.Demo
+ !
+ !  Copyright (c) 2017, by Nicolas LLOBERA <nllobera@gmail.com>
+ !  Under LGPL license
+ !-->
+<Application x:Class="Log4netViewer.Demo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">

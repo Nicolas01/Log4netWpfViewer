@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ *  Log4netViewer
+ *
+ *  Copyright (c) 2017, by Nicolas LLOBERA <nllobera@gmail.com>
+ *  Under LGPL license
+ */
+using System.Collections;
 using System.Collections.Specialized;
 using System.Windows;
 using System.Windows.Controls;

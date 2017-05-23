@@ -1,0 +1,15 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs
+/*
+ *  %Project%
+ *
+ *  Copyright (c) %CurrentYear%, by Nicolas LLOBERA <nllobera@gmail.com>
+ *  Under LGPL license
+ */
+extensions: .xaml
+<!--
+ !  %Project%
+ !
+ !  Copyright (c) %CurrentYear%, by Nicolas LLOBERA <nllobera@gmail.com>
+ !  Under LGPL license
+ !-->

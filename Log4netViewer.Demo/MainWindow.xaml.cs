@@ -1,4 +1,10 @@
-﻿using log4net;
+﻿/*
+ *  Log4netViewer.Demo
+ *
+ *  Copyright (c) 2017, by Nicolas LLOBERA <nllobera@gmail.com>
+ *  Under LGPL license
+ */
+using log4net;
 using log4net.Appender;
 using log4net.Repository.Hierarchy;
 using Microsoft.Win32;

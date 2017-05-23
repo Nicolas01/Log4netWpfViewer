@@ -1,4 +1,10 @@
-﻿using System.Reflection;
+﻿/*
+ *  Log4netViewer.Demo
+ *
+ *  Copyright (c) 2017, by Nicolas LLOBERA <nllobera@gmail.com>
+ *  Under LGPL license
+ */
+using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
