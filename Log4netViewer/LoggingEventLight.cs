@@ -44,7 +44,7 @@ namespace Log4netViewer
             Username = log4netLoggingEvent.UserName;
             Message = log4netLoggingEvent.RenderedMessage;
             Exception = log4netLoggingEvent.GetExceptionString();
-            if (log4netLoggingEvent.LocationInformation != null)
+            if (log4netLoggingEvent.LocationInformation != null && log4netLoggingEvent.LocationInformation.FileName != null)
             {
                 Location = log4netLoggingEvent.LocationInformation.FileName.Substring(log4netLoggingEvent.LocationInformation.FileName.LastIndexOf("\\") + 1) + ":" + log4netLoggingEvent.LocationInformation.LineNumber;
             }
