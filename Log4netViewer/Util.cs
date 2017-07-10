@@ -34,7 +34,7 @@ namespace Log4netViewer
                 // manage log4net prefix: <log4net:event
                 var nsmgr = new XmlNamespaceManager(settings.NameTable);
                 nsmgr.AddNamespace("log4net", "https://logging.apache.org/log4net/");
-                var context = new XmlParserContext(null, nsmgr, null, XmlSpace.Default);
+                var context = new XmlParserContext(null, nsmgr, null, XmlSpace.Default, Encoding.UTF8);
                 var reader = XmlReader.Create(stream, settings, context);
 
                 while (reader.Read())
